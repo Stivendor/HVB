@@ -1,0 +1,101 @@
+* {
+    background-color: rgb(48, 48, 63);
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.sub1 h2,
+.sub2 h2,
+.sub3 h2 {
+    text-align: center;
+    margin: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.caja {
+    border: 5px solid black;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 250px;
+
+}
+
+.texto-imagen h2 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.texto-imagen {
+    padding: 50px;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sub1 p,
+.sub2 p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.redes {
+    margin-right: 75%;
+    margin-left: 0vw;
+}
+
+.redes h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    margin-left: 40px;
+}
+
+.redes>ul>li>a {
+    color: rgb(207, 32, 32);
+    margin-right: 40%;
+    
+}
+
+.redes>ul>li>a:hover{
+    color:rgb(43, 52, 175);
+    outline: 2px solid black;
+}
+
+.redes>ul {
+    list-style: none;
+}
+
+#sena, .caja p h2 {
+    background-image: url(./img/sena.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.;
+}
+
+#doxa, .caja p h2 {
+    background-image: url(./img/doxa.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 100% 100%;
+    opacity: 0.8;
+}
+
+#nupsu, .caja p h2 {
+    background-image: url(./img/nupsu.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 100% 100%;
+    opacity: 0.8;
+}
